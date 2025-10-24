@@ -1,0 +1,68 @@
+{
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "warnOnUnsupportedTypeScriptVersion": false
+  },
+  "extends": [
+    "airbnb-typescript",
+    "prettier",
+    "prettier/@typescript-eslint"
+  ],
+  "plugins": [
+    "import",
+    "prettier",
+    "html"
+  ],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".js",
+          ".ts"
+        ]
+      }
+    }
+  },
+  "rules": {
+    "import/extensions": "off",
+    "import/no-extraneous-dependencies": "off",
+    "semi": "off",
+    "@typescript-eslint/space-before-blocks": "off",
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-inferrable-types": "off",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "import/prefer-default-export": "off",
+    "@typescript-eslint/no-use-before-define": "off",
+    "prefer-destructuring": "off",
+    "import/no-default-export": "off",
+    "no-debugger": "off",
+    "no-underscore-dangle": "off",
+    "no-nested-ternary": "off",
+    "default-case": "off",
+    "consistent-return": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "no-case-declarations": "off",
+    "@typescript-eslint/no-useless-constructor": "off",
+    "@typescript-eslint/lines-between-class-members": "off",
+    // TODO - remove rule, fix cycle imports
+    "import/no-cycle": "off",
+    "max-len": [
+      "error",
+      {
+        "code": 120
+      }
+    ],
+    "prettier/prettier": [
+      "error",
+      {}
+    ]
+  },
+  "env": {
+    "node": true,
+    "browser": true
+  }
+}

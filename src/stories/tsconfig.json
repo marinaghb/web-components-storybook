@@ -1,0 +1,32 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "newLine": "LF",
+    "charset": "utf8",
+    "sourceMap": false,
+    "rootDir": ".",
+    "outDir": "./js/",
+    "target": "ES2022",
+    "module": "ES2022",
+    "lib": [
+      "ES2023",
+      "dom"
+    ],
+    "allowJs": true,
+    "removeComments": true,
+    "alwaysStrict": true,
+    "declaration": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "strictFunctionTypes": false,
+    "strictBindCallApply": false,
+    "strictPropertyInitialization": false,
+    "noImplicitThis": false,
+    "noImplicitReturns": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  }
+}

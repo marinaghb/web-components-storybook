@@ -1,0 +1,13 @@
+bin/*
+dist/*
+release/*
+scripts/*
+node_modules/*
+
+# local tests
+*.spec.ts
+
+# cypress tests
+cypress.config.ts
+cypress/**/*.ts
+*.cy.ts
